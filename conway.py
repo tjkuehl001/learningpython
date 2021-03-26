@@ -61,7 +61,7 @@ while True:  # main program loop
                 nextCells[x][y] = '#'
             else:
                 # everything else dies or stays dead
-                nextCells = ' '
-            time.sleep(1)
+                nextCells[x][y] = ' '
+    time.sleep(1)
 
 
