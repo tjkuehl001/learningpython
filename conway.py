@@ -56,7 +56,7 @@ while True:  # main program loop
             numNeighbors == 3):
                 # living cells with 2 or 3 neighbors stay alive
                 nextCells[x][y] = '#'
-            elif currentCells[x][y] == '' and numNeighbors == 3:
+            elif currentCells[x][y] == ' ' and numNeighbors == 3:
                 # Dead cells with 3 neighbors become alive
                 nextCells[x][y] = '#'
             else:
